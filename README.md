@@ -22,7 +22,19 @@ and your own twitter application to connect to the twitter API(get it here: http
 Domoticz installed on a Paspberry Pi
 Python 2.7
 Twython
-Drop the .py file and the textfile in a directory currently setup with  /home/pi/tweetbot/ as the folder but this can be altered by editing the script
+Drop the .py file and the textfile in a directory currently setup with  /home/pi/tweetbot/ as the folder but this can be altered by
+editing the script
+
+File description 
+twitterbot.py = the bot's script
+defaultresponselist.txt = a list of random default responses to the control account
+InvalidCommandTweet.txt = random list of responses to invalid commands
+notauthorizedtweet.txt  = random list of responses to metions of the server twitter accounts by accounts except the control account
+pleasedtweetreply.txt =  random list of responses whenever you thank the servers twitter account
+
+
+
+
 
 v0.1  is able to switch on\off lights, groups and scene's
 handle incomming tweets from the master account 
